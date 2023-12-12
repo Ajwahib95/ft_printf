@@ -6,7 +6,7 @@
 /*   By: awahib <awahib@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/24 18:40:31 by awahib            #+#    #+#             */
-/*   Updated: 2023/11/27 10:17:49 by awahib           ###   ########.fr       */
+/*   Updated: 2023/12/12 10:57:06 by awahib           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include <unistd.h>
 # include <stddef.h>
+# include <unistd.h>
 
-int	ft_printf(const char *, ...);
-int ft_print_format(const char format, va_list ap);
+int	ft_printf(const char *format, ...);
+int	ft_print_format(const char format, va_list ap);
 int	ft_putnbr(int n);
 int	ft_putchar(char c);
 int	ft_putstr(char *str);

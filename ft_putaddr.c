@@ -6,7 +6,7 @@
 /*   By: awahib <awahib@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/26 19:48:00 by awahib            #+#    #+#             */
-/*   Updated: 2023/11/27 09:20:18 by awahib           ###   ########.fr       */
+/*   Updated: 2023/12/12 10:57:24 by awahib           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_putaddr(size_t nbr)
 {
-	char *base;
-	int length;
+	char	*base;
+	int		length;
 
 	length = 0;
 	if (!nbr)

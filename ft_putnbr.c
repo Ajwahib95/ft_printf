@@ -6,7 +6,7 @@
 /*   By: awahib <awahib@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/24 18:42:20 by awahib            #+#    #+#             */
-/*   Updated: 2023/11/26 18:45:39 by awahib           ###   ########.fr       */
+/*   Updated: 2023/12/12 10:55:53 by awahib           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_putnbr(int n)
 {
-	long int nbr;
-	int length;
+	long int	nbr;
+	int			length;
 
 	nbr = n;
 	length = 0;
